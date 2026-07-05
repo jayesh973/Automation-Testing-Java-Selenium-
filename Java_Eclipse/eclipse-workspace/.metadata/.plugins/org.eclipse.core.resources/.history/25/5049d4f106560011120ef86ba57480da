@@ -1,0 +1,28 @@
+package jayeshSonawane.numberPrograms;
+
+public class FibonacciSeries {
+
+	// 0, 1, 1, 2, 3, 5, 8, 13, 21, 34,
+	// 55, 89, 144, 233, 377, 610, 987,
+	// 1597, 2584, 4181
+	
+	static void fibonacci() {
+	
+		int num1 = 0;
+		int num2 = 1;
+		int sum = num2;
+		
+		System.out.print(num1 + " " + num2);
+		
+		while(sum < 100) {
+			sum = sum + num1;
+			System.out.print(" " + sum);
+			num2 = num1;
+			num1 = sum;
+		}		
+	}
+	
+	public static void main(String[] args) {
+		fibonacci();
+	}
+}

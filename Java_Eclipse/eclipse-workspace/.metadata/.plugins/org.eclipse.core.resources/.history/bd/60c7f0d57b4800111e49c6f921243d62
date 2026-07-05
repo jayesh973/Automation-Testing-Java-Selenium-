@@ -1,0 +1,92 @@
+package jayeshSonawane.wrapperClasses;
+
+import java.util.ArrayList;
+
+public class IntroductionWrapperClass {
+	public static void main(String[] args) {
+	
+	// Simple Understanding
+	// Primitive → int
+	// Wrapper → Integer
+
+	// Wrapper class is a class that encapsulates (wraps) a primitive data type into 
+	// an object.
+	
+	// Java is object-oriented, but primitive types (like int, char) are not objects.
+	// Wrapper classes solve this by converting primitives into objects so they can 
+	// be used where objects are required (like collections, APIs, etc.).
+	
+	// List of Wrapper Classes
+		
+	// 	| Primitive Type | Wrapper Class |
+	//	| -------------- | ------------- |
+	//	| byte           | Byte          |
+	//	| short          | Short         |
+	//	| int            | Integer       |
+	//	| long           | Long          |
+	//	| float          | Float         |
+	//	| double         | Double        |
+	//	| char           | Character     |
+	//	| boolean        | Boolean       |
+
+	// Why we use them?
+	
+	// 1. Collections Support
+		
+		// We cannot store primitives in an ArrayList<int>, so you must use ArrayList.
+
+		int a1 = 10;							// primitive
+		Integer obj1 = Integer.valueOf(a1);		// wrapping
+		
+		System.out.println(obj1);	// 10
+		
+		int b1 = obj1.intValue();				// unwrapping
+		
+		System.out.println(b1);		// 10				
+	
+	// 2. Utility Methods
+		
+		// They provide helpful methods like Integer.parseInt() for converting strings 
+		// to numbers or Character.isDigit() to check character properties.
+		
+		ArrayList<Integer> list = new ArrayList<>();
+		// list.add(10);   // cannot use int directly
+		
+		int b2 = 10;							// primitive
+		Integer obj2 = Integer.valueOf(b2);		// wrapping
+		
+		list.add(obj2);
+		System.out.println(list); 	// [10]
+	
+	// 3. Null Values
+		
+		// Unlike primitives, wrapper objects can be set to null, which is useful for 
+		// representing missing data.
+		
+		// int a3 = null; // Not Possible
+		Integer a3 = null;
+		
+		System.out.println(a3);
+		
+	// 4. Autoboxing and Unboxing
+		
+		// Java automatically converts between primitives and their wrapper objects 
+		// (e.g., assigning an int directly to an Integer).
+		
+	// Difference :
+	
+	// Feature			Primitive Type			Wrapper Class
+
+	// Data 			Stores value directly   Stores value as an object
+	// Representation   in memory
+	
+	// Memory			Efficient (low usage)	Higher overhead (extra metadata)
+	
+	// Methods			None					Rich set of utility methods
+	
+	// Initialization	Must have a value 		Can be null	
+	//					(e.g., 0, false)
+	
+	
+	}
+}

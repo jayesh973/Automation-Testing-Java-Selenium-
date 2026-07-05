@@ -1,0 +1,160 @@
+package jayeshSonawane.stringPrograms;
+
+////Case 1 : Counts only  character  frequency
+//public class CharFrequency {
+//
+//	int countCharFrequency(String str, char ch) {
+//		int oLength = str.length();
+//		
+//		str = str.replace(String.valueOf(ch), "");
+//		int nLength = str.length();
+//		
+//		int diffLength = oLength - nLength;
+//
+//		return diffLength;
+//	}
+//
+//	public static void main(String[] args) {
+//		int count = 0;
+//		String str = "aakanksha";
+//		char ch = 'a';
+//		CharFrequency charFrequency = new CharFrequency();
+//
+//		count = charFrequency.countCharFrequency(str, ch);
+//
+//		System.out.println("Frequency of " + ch + " is " + count);
+//	}
+//}
+
+//--------------------------------------------------------------------
+////case 2 : gives frequency of each count and avoids duplicate printing.
+//public class CharFrequency {
+//	
+//	// gets occurrence of character in string
+//	int countCharFrequency(String str, char ch) {
+//		int oLength = str.length();
+//
+//		str = str.replace(String.valueOf(ch), "");
+//		int nLength = str.length();
+//
+//		int diffLength = oLength - nLength;
+//
+//		return diffLength;
+//	}
+//	
+//	// checks if character present at index is already processed if it appears again 
+//	boolean isCharProcessed(String str, int index) {
+//		char ch = str.charAt(index);
+//
+//		// loop break for first occurrence because  it is not processed as method has not completed.
+//		for (int i = 0; i < index; i++) { 
+//			if (str.charAt(i) == ch) {
+//				return true;
+//			}
+//		}
+//		return false;
+//	}
+//
+//	public static void main(String[] args) {
+//		int count = 0;
+//		String str = "aakanksha";
+//		CharFrequency charFrequency = new CharFrequency();
+//
+//		for (int i = 0; i < str.length(); i++) {
+//			if (!charFrequency.isCharProcessed(str, i)) {
+//				count = charFrequency.countCharFrequency(str, str.charAt(i));
+//
+//				if (count >= 1) {
+//					System.out.println("Frequency of " + str.charAt(i) + " is " + count);
+//				}
+//			}
+//		}
+//	}
+//}
+
+////Case 3 : Counts each  character  frequency, but duplicate printing
+//public class CharFrequency {
+//
+//	int countCharFrequency(String str, char ch) {
+//		int oLength = str.length();
+//
+//		str = str.replace(String.valueOf(ch), "");
+//		int nLength = str.length();
+//
+//		int diffLength = oLength - nLength;
+//
+//		return diffLength;
+//	}
+//
+//	public static void main(String[] args) {
+//		int count = 0;
+//		String str = "aakanksha";
+//		CharFrequency charFrequency = new CharFrequency();
+//
+//		for (int i = 0; i < str.length(); i++) {
+//			count = charFrequency.countCharFrequency(str, str.charAt(i));
+//			System.out.println("Frequency of " + str.charAt(i) + " is " + count);
+//		}
+//	}
+//}
+
+////Case 4 : Counts each  character  frequency, avoids duplicate printing in another way
+public class CharFrequency {
+
+	int countCharFrequency(String str, char ch) {
+		int oLength = str.length();
+
+		str = str.replace(String.valueOf(ch), "");
+		int nLength = str.length();
+
+		int diffLength = oLength - nLength;
+
+		return diffLength;
+	}
+
+	public static void main(String[] args) {
+		int count = 0;
+		String str = "aakanksha";
+		CharFrequency charFrequency = new CharFrequency();
+
+		for (int i = 0; i < str.length(); i++) {
+			if (str.indexOf(str.charAt(i)) == i) {
+				count = charFrequency.countCharFrequency(str, str.charAt(i));
+				System.out.println("Frequency of " + str.charAt(i) + " is " + count);
+//				if (count == 2) {
+//					System.out.println("Frequency of " + str.charAt(i) + " is " + count);
+//				}
+			}
+		}
+	}
+}
+
+////Case 5 : Counts each  character  frequency, avoids duplicate printing in another way, but avoids unique character, so prefer case 4 for all conditions, which prints at first occurrence only, here in last occurrence unique character does not  gets printed.
+//public class CharFrequency {
+//
+//	int countCharFrequency(String str, char ch) {
+//		int oLength = str.length();
+//	
+//		str = str.replace(String.valueOf(ch), "");
+//		int nLength = str.length();
+//	
+//		int diffLength = oLength - nLength;
+//	
+//		return diffLength;
+//	}
+//
+//	public static void main(String[] args) {
+//		int count = 0;
+//		String str = "aakanksha";
+//		CharFrequency charFrequency = new CharFrequency();
+//	
+//		for (int i = 0; i < str.length(); i++) {
+//			if (str.indexOf(str.charAt(i)) == i) {
+//				count = charFrequency.countCharFrequency(str, str.charAt(i));
+//				if (count == 2 && (str.indexOf(str.charAt(i)) != str.lastIndexOf(str.charAt(i)))) {
+//					System.out.println("Frequency of " + str.charAt(i) + " is " + count);
+//				}
+//			}
+//		}
+//	}
+//}

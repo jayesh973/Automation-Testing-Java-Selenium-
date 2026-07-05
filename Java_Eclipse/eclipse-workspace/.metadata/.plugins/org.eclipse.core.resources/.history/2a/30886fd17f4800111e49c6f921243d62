@@ -1,0 +1,60 @@
+package jayeshSonawane.wrapperClasses;
+
+// 🔹 Parsing & Conversion
+
+// public static int parseInt(String s);
+// public static Integer valueOf(String s);
+// public static String toString(int i);
+
+// 🔹 Comparison
+
+// public static int compare(int x, int y);
+// public int compareTo(Integer anotherInteger);
+// public boolean equals(Object obj);
+
+// 🔹 Utility
+
+// public static int max(int a, int b);
+// public static int min(int a, int b);
+// public static int sum(int a, int b);
+// public static int hashCode(int value);
+
+// 🔹 Bit Manipulation
+
+// public static String toBinaryString(int i);
+// public static int bitCount(int i);
+// public static int highestOneBit(int i);
+// public static int lowestOneBit(int i);
+// public static int reverse(int i);
+
+// 🔹 Primitive Conversion
+
+// public int intValue();
+
+public class IntegerClassMethods {
+
+	public static void main(String[] args) {
+	
+	// 🔹 Parsing & Conversion
+		
+		// public static int parseInt(String s);
+			
+			// Converts a numeric String into a primitive int
+		
+			String s1 = "1234";
+			System.out.println(Integer.parseInt(s1)); // 1234
+			
+			String s2 = "1234";
+			System.out.println(Integer.parseInt(s2, 0));
+		
+		// public static Integer valueOf(String s);
+		
+			// Converts a String into an Integer object (uses caching).
+			
+		
+		
+		
+		// public static String toString(int i);
+
+	}
+}

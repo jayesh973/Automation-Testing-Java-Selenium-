@@ -1,0 +1,97 @@
+package jayeshSonawane.wrapperClasses;
+
+// 🔹 Parsing & Conversion
+
+	// public static int parseInt(String s);
+	// public static int parseInt(String s, int radix);
+	
+	// public static Integer valueOf(String s);
+	// public static Integer valueOf(String s, int radix);
+	// public static Integer valueOf(int i);
+	
+	// public static String toString(int i);
+	// public static String toString(int i, int radix);
+
+// 🔹 Comparison
+
+// public static int compare(int x, int y);
+// public int compareTo(Integer anotherInteger);
+// public boolean equals(Object obj);
+
+// 🔹 Utility
+
+// public static int max(int a, int b);
+// public static int min(int a, int b);
+// public static int sum(int a, int b);
+// public static int hashCode(int value);
+
+// 🔹 Bit Manipulation
+
+// public static String toBinaryString(int i);
+// public static int bitCount(int i);
+// public static int highestOneBit(int i);
+// public static int lowestOneBit(int i);
+// public static int reverse(int i);
+
+// 🔹 Primitive Conversion
+
+// public int intValue();
+
+// | Radix | Number System | Digits Used |
+// | ----- | ------------- | ----------- |
+// | 2     | Binary        | 0, 1        |
+// | 8     | Octal         | 0–7         |
+// | 10    | Decimal       | 0–9         |
+// | 16    | Hexadecimal   | 0–9, A–F    |
+
+public class IntegerClassMethods {
+
+	public static void main(String[] args) {
+	
+// 🔹 Parsing & Conversion
+		
+//// 1. parseInt():
+		 
+	// public static int parseInt(String s);
+			
+	// Converts a numeric String into a primitive int
+		
+	String s1_1 = "1234";
+	System.out.println(Integer.parseInt(s1_1)); // 1234
+	
+	// public static int parseInt(String s, int radix);
+	
+	String s1_2 = "1234";
+	System.out.println(Integer.parseInt(s1_2, 10)); // 1234 // radix = 10 -> Decimal
+	
+	System.out.println(Integer.parseInt("0", 10)); // 0
+	System.out.println(Integer.parseInt("473", 10)); // 473
+	System.out.println(Integer.parseInt("+42", 10)); // 42
+	System.out.println(Integer.parseInt("-0", 10)); // 0
+	System.out.println(Integer.parseInt("-FF", 16)); // -255
+	System.out.println(Integer.parseInt("1100110", 2)); // 102
+	System.out.println(Integer.parseInt("2147483647", 10)); // 2147483647
+	System.out.println(Integer.parseInt("-2147483648", 10)); // -2147483648
+	// System.out.println(Integer.parseInt("2147483648", 10)); // throws a NumberFormatException
+	// System.out.println(Integer.parseInt("99", 8)); // throws a NumberFormatException
+	// System.out.println(Integer.parseInt("Kona", 10)); // throws a NumberFormatException
+	System.out.println(Integer.parseInt("Kona", 27)); // returns 411787
+	
+	
+			
+	// Converts a numeric String into a primitive int
+		
+				
+				
+				
+			// public static Integer valueOf(String s);
+		
+			// Converts a String into an Integer object (uses caching).
+			
+		
+		
+		
+		// public static String toString(int i);
+
+	}
+}

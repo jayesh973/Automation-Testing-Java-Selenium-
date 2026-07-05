@@ -1,0 +1,29 @@
+Class Link - https://us02web.zoom.us/j/2020251222?pwd=d0M0NnNscytBZ0ZqUnhxcHdLQnJmdz09
+
+Google Sheet (April_26_Progress) - https://docs.google.com/spreadsheets/d/1xfPvONnFuV0JFuZiQ-t7ft9BD_ftPkPDaopDh1vUaL4/edit?gid=1676342499#gid=1676342499
+
+Github - https://github.com/dashboard
+
+Sample Resume - https://drive.google.com/drive/folders/1_ZVoIv2Le5Wk1v3LTi2E7BPkDsZAsRbM
+
+Exam Portal - 
+
+Assessment 1 (Senior quality engineer Test - 22-Mar-2026) 	: https://staging.app.hirecorrecto.com/candidateResults/69bf971d1e99e7143bb14be8
+Assessment 2 (Java Basic Screening - 1) 					: https://staging.app.hirecorrecto.com/results/screening/69bf96611e99e7143bb14812?canScrId=69c5258a28aab84513deb83d
+Assessment 3 (Java Basic Screening - 2) 					: https://staging.app.hirecorrecto.com/results/screening/69bfa36c1e99e7143bb18fe1?canScrId=69c7e5863060ba772ab94c61
+Assessment 4 (Java Basic Screening - 5) 					: https://staging.app.hirecorrecto.com/results/screening/69bf96611e99e7143bb14812?canScrId=69cfdcd328aab84513ded206
+Assessment 5 (Java Basic Screening - 3) 					: https://staging.app.hirecorrecto.com/results/screening/69bf96611e99e7143bb14812?canScrId=69d338173060ba772ab96027
+Assessment 6 (Java Basic Screening - 6) 					: https://staging.app.hirecorrecto.com/results/screening/69bf96611e99e7143bb14812?canScrId=69d4f0da3060ba772ab96e74
+Assessment 7 (Java Basic Screening - 7) 					: https://staging.app.hirecorrecto.com/results/screening/69bf96611e99e7143bb14812?canScrId=69d690fb3060ba772ab9786c
+
+Audio & Video Screening :
+
+Assessment 8 (Java Basic Screening - 8) 					: https://staging.app.hirecorrecto.com/results/screening/69bf96611e99e7143bb14812?canScrId=69dd1290f0aabdbefe84cf26
+Assessment 9 (Screening - 10) 								: https://staging.app.hirecorrecto.com/results/screening/69bf96611e99e7143bb14812?canScrId=69e5903bf0aabdbefe84d169
+
+Coding + MCQ
+Assessment 10 (Screening-12_1) 								: https://staging.app.hirecorrecto.com/results/screening/69bf96611e99e7143bb14812?canScrId=69ee0fb84683fef881849b64
+
+Assessment 11 (Screening-14)		 						: https://staging.app.hirecorrecto.com/results/screening/69bf96611e99e7143bb14812?canScrId=69f424da9bfad628b9ba4fef
+
+MAR26 - Java & Selenium 									: https://staging.app.hirecorrecto.com/results/screening/69bf96611e99e7143bb14812?canScrId=6a4911a44573dd952cec202b

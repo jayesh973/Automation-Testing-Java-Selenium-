@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="java.lang.Class">
+		<item key="replaceBarOpen" value="true"/>
+		<list key="findhistory">
+			<item value="Example"/>
+			<item value="split"/>
+			<item value="`"/>
+			<item value="&apos;"/>
+			<item value="&lt;br&gt;"/>
+			<item value="contente"/>
+			<item value="contentEquals"/>
+			<item value="contentEq"/>
+			<item value="contains"/>
+			<item value="//---------------------------------------------------------------------"/>
+			<item value="//"/>
+		</list>
+		<list key="replacehistory">
+			<item value="Practice"/>
+			<item value=","/>
+			<item value="System.out.println(&quot;---------------------------------------------------------------------&quot;);"/>
+			<item value="////"/>
+		</list>
+	</section>
+</section>
